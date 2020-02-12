@@ -3615,17 +3615,21 @@ input, select, textarea {
 			color: white;
 		}
 
-		/* @media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1280px) {
 
-			#footer {
+			/* #footer {
 				padding: 4em 4em 2em 4em ;
+			} */
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#profileImg img {
+				padding: 2em;
 			}
 
-		} */
-
-		/* @media screen and (max-width: 980px) {
-
-			#footer {
+			/* #footer {
 				padding: 4em 3em 2em 3em ;
 				display: block;
 				margin: 0 0 3em 0;
@@ -3636,17 +3640,17 @@ input, select, textarea {
 					width: 100%;
 					margin-left: 0;
 					margin-bottom: 3em;
-				}
+				} */
 
-		} */
+		}
 
-		/* @media screen and (max-width: 736px) {
+		@media screen and (max-width: 736px) {
 
-			#footer {
+			/* #footer {
 				padding: 3em 2em .5em 2em ;
-			}
+			} */
 
-		} */
+		}
 
 		@media screen and (max-width: 480px) {
 
