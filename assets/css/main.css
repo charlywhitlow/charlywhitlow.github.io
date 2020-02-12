@@ -99,7 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #ffffff;
+		/* background-color: #76eee8; */
+		/* background-color: #d7e2e1; */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2417,6 +2418,8 @@ input, select, textarea {
 	#profileImg img{
 		max-width: 30em;
 		margin: auto;
+		padding-left: 4em;
+		padding-top: 2em;
 	}
 
 	
@@ -2970,7 +2973,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 5em 5em 1em 5em ;
+		padding: 2.5em 5em .5em 5em ;
 		text-align: center;
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #60afd6ea 30%, #1ab68c 70%);
 	}
@@ -3118,8 +3121,6 @@ input, select, textarea {
 		color: #636363;
 		position: absolute;
 		width: 100%;
-		/* width: 64em; */
-		/* max-width: calc(100% - 4em); */
 		padding: 1em;
 		background-color: #f7f7f7;
 		border-top-left-radius: 0.25em;
@@ -3487,7 +3488,7 @@ input, select, textarea {
 
 		#main > .main {
 			padding: 5em 5em 3em 5em ;
-			border-top: solid 1px #dddddd;
+			border-top: solid 3px #dddddd;
 		}
 
 			#main > .main:first-child {
@@ -3609,8 +3610,9 @@ input, select, textarea {
 		#footer .copyright {
 			width: 100%;
 			margin: 2.5em 0 2em 0;
-			font-size: 0.8em;
+			font-size: 1em;
 			text-align: center;
+			color: white;
 		}
 
 		/* @media screen and (max-width: 1280px) {
