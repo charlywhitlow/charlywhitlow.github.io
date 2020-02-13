@@ -2415,11 +2415,18 @@ input, select, textarea {
 		margin: auto;
 	}
 
+	#profileImg{
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
 	#profileImg img{
 		max-width: 30em;
 		margin: auto;
 		padding-left: 4em;
 		padding-top: 2em;
+
 	}
 
 	
@@ -3540,7 +3547,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main > .main {
-				padding: 3em 2em 1em 2em ;
+				padding: 2em 2em 3em 2em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3553,7 +3560,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 2em .5em 3em .5em;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3570,7 +3577,7 @@ input, select, textarea {
 			}
 
 				#main > .main {
-					padding: 2.5em 1em 0.5em 1em ;
+					padding: 1em 0 2em 0;
 				}
 
 					#main > .main > .image.main:first-child {
@@ -3625,10 +3632,6 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			#profileImg img {
-				padding: 2em;
-			}
-
 			/* #footer {
 				padding: 4em 3em 2em 3em ;
 				display: block;
@@ -3660,6 +3663,15 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 360px) {
+
+			/* #header.alt {
+				padding: 3.5em 1em 0.5em 1em ;
+			} */
+
+		}
+
+
 /* Wrapper */
 
 	#wrapper {
@@ -3671,7 +3683,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
-				max-width: calc(100% - 2em);
+				max-width: calc(100% + 2em);
 			}
 
 		}
@@ -3679,6 +3691,42 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			#wrapper {
+				max-width: calc(100% + 2em);
+			}
+
+		}
+
+		
+/* Profile image */
+
+		@media screen and (max-width: 980px) {
+
+			#profileImg img {
+				padding: 2em;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#profileImg img {
+				padding: 1em;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#profileImg img {
+				max-width: 100%;
+				padding: 1em 0 1em 0;
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			#profileImg img {
 				max-width: 100%;
 			}
 
