@@ -2411,8 +2411,12 @@ input, select, textarea {
 			}
 
 	.project_card{
-		max-width: 30em;
+		max-width: 25em;
 		margin: auto;
+		margin-bottom: 2em;
+		padding: 1em;
+		padding-bottom: 0;
+		border: #ecebeb 2px solid;
 	}
 
 	#profileImg{
