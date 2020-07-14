@@ -1,0 +1,3 @@
+Panel size:
+width:  686 pixels
+height: 453 pixels
