@@ -1,10 +1,8 @@
 # Portfolio
-___
 
 ### Hosted on GitHub Pages at:
 
 ## [charlywhitlow.github.io](https://charlywhitlow.github.io)
-___
 
 #### Adapted from Stellar by HTML5 UP
 
