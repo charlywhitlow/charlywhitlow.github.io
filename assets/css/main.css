@@ -2525,7 +2525,7 @@ input, select, textarea {
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1em;
+			padding: 0 0 0 0.4em;
 			vertical-align: middle;
 		}
 
@@ -2536,6 +2536,7 @@ input, select, textarea {
 			justify-content: center;
 			width: 100%;
 			margin-left: 0;
+			font-size: 0.8em;
 		}
 
 			ul.actions.special li:first-child {
