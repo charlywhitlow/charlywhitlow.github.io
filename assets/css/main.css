@@ -3595,7 +3595,16 @@ input, select, textarea {
 							border-radius: 0;
 						}
 
-		}
+/* contact section */
+	#contact .major {
+		margin-bottom: 0em !important;
+	}
+	#contact img {
+		margin-top: 0.8em;
+	}
+	#contact img:hover {
+		opacity: 0.8;
+	}
 
 /* Footer */
 
