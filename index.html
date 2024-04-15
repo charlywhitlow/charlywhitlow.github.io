@@ -225,20 +225,5 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
-		<!-- Wake up heroku apps -->
-		<script>
-			let urls = [
-				'https://bird-listener.herokuapp.com/api/status',
-				'https://stats-vs-zombies.herokuapp.com/status'
-			]
-			urls.forEach(url => {
-				fetch(url, { method: 'GET' })
-				.then(res => res.json())
-				.then(json => console.log(url, json))
-				.catch(err => console.log(err))
-			});
-		</script>
 </body>
 </html>
